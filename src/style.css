@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background: #8888fd;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: -20px 0 50px;
+}
+h1
+{
+    align-self: center;
+}
+#adicao
+{
+    align-self: center;
+}
+h2
+{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width:300px;
+}
+.container-dados
+{
+    display: flex;
+    align-self: center;
+}
+#opcao
+{
+    display: flex;
+    align-self: center;
+    
+}
+button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px; 
+    margin: 8px 0;
+    width:100%;
+}
+#add
+{
+    display:flex;
+    align-self: center;
+    border-radius: 20px;
+    border: 1px solid #004688;
+    background-color: #004688;
+    color:#FFFFFF; 
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.card-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card
+{
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.remover
+{
+  display:flex;
+  align-self: center;
+  border-radius: 20px;
+  border: 1px solid #004688;
+  background-color: #004688;
+  color:#FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.mudar
+{
+  display:flex;
+  align-self: center;
+  border-radius: 20px; 
+  border: 1px solid #004688;
+  background-color: #004688;
+  color:#FFFFFF; 
+  font-size: 9px;
+  font-weight: bold;
+  padding: 12px 45px; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.switch-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin: 10px 0;
+}
+
+.switch-container label
+{
+  margin-right: 10px;
+}
+.botoes-ordenacao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.botoes-ordenacao button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botoes-ordenacao button.selecionado {
+  background-color: #ddd;
+}
