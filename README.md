@@ -1,5 +1,5 @@
 # Avaliação ED2
-Nos meus estudos passados, já havia estruturado um programa de Biblioteca, achei justo reaproveitar a estrutura e usei pouco Gemini, haja visto que teho bastante familiaridade com JavaScript por conta do meu trabalho.
+Nos meus estudos passados, já havia estruturado um programa de Biblioteca, achei justo reaproveitar a estrutura e usei pouco Gemini, haja visto que tenho bastante familiaridade com JavaScript por conta do meu trabalho.
 https://github.com/vinileann/BibliotecaLivros
 # Repositório passado com a estrutura de Biblioteca de Livros e método Factory para adição de novos produtos;
 # Não precisa de node ou "npm i", arquivos são estáticos;
